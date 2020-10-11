@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => (
       styleClass="default-background"
     />
     <Info />
-    <LatestProducts />
+    {/* <LatestProducts /> */}
   </Layout >
 );
 

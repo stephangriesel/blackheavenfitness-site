@@ -13,11 +13,12 @@ const toolbar = props => (
             <div className="spacer"></div>
             <div className="toolbar__navigation-items">
                 <ul>
-                    <li><a href="/shop">Shop</a> </li>
+                    {/* <li><a href="/shop">Shop</a> </li> */}
+                    <li><a href="https://try.beat81.com/shaleka/">Free Workout</a> </li>
                     <li><a href="/contact">Contact</a> </li>
-                    <li>
+                    {/* <li>
                         <button className="snipcart-checkout" aria-label="shopping cart button"><span className="bag"><FaShoppingCart /></span></button>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </nav>

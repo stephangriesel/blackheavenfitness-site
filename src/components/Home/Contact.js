@@ -1,5 +1,6 @@
 import React from 'react'
 // import Title from '../Globals/Title'
+import aboutImg from '../../images/shaleka.jpg'
 
 export default function Contact() {
     return (
@@ -7,6 +8,9 @@ export default function Contact() {
 
         <section className="contact py-3 fade-in">
             {/* <Title title="Contact Us" /> */}
+            <div>
+                <img className="about-img" src={aboutImg} alt="About Image" />
+            </div>
             <div>
                 <form action="https://formspree.io/sgriesel@gmail.com"
                     method="POST">

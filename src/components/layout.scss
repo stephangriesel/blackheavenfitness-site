@@ -42,12 +42,15 @@ html {
 }
 
 body {
-  background: var(--mainLight);
-  color: var(--mainDarkerGrey);
+  background: var(--mainBlack);
+  color: var(--mainLight);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
   height:100%;
   // overflow: hidden;
+  p {
+    font-size: 1.4em;
+  }
 }
 
 section {
@@ -61,7 +64,7 @@ section {
   justify-content: center;
   background-position: center;
   background-size: cover;
-  mask-image: linear-gradient(to top, transparent 5%, #000 100%);
+  mask-image: linear-gradient(to top, transparent 1%, rgb(0, 0, 0) 100%);
 }
 
 .about-background {
@@ -110,12 +113,35 @@ footer {
 
 .contact {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  
   .form-group {
     width:20em;
     text-align: center;;
+  }
+  .about-img {
+    width:20em;
+    margin:3em;
+    -webkit-box-shadow: 0px 0px 34px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 34px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 34px 2px rgba(255, 255, 255, 0.75);
+  }
+}
+
+.try {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  border: 1px solid #FFF;
+  background:#000;
+  padding:1em;
+  a {
+    color:#FFF;
+    &:hover {
+      color:#FFF;
+    }
   }
 }
 
@@ -249,5 +275,13 @@ picture {
     -webkit-transform-origin: top;
     transform-origin: top;
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    .about-img {
+    margin: 7em 3em 4em 3em;
+  }
   }
 }

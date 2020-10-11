@@ -10,11 +10,12 @@ const sideDrawer = props => {
     return (
         <nav className={drawerClasses}>
             <ul>
-                <li><a href="/shop">Shop</a> </li>
+                {/* <li><a href="/shop">Shop</a> </li> */}
+                <li><a href="https://try.beat81.com/shaleka/">Free Workout</a> </li>
                 <li><a href="/contact">Contact</a> </li>
-                <li>
+                {/* <li>
                     <button className="snipcart-checkout" aria-label="shopping cart button"><span className="bag"><FaShoppingCart /></span></button>
-                </li>
+                </li> */}
             </ul>
         </nav>
     )
