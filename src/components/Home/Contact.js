@@ -12,7 +12,7 @@ export default function Contact() {
                 <img className="about-img" src={aboutImg} alt="About Image" />
             </div>
             <div>
-                <form action="https://formspree.io/sgriesel@gmail.com"
+                <form action="https://formspree.io/info@blackheavenfitness.com"
                     method="POST">
                     <div className="form-group">
                         {/* <label htmlFor="name">Name</label> */}
@@ -24,9 +24,9 @@ export default function Contact() {
                     </div>
                     <div className="form-group">
                         {/* <label htmlFor="name">Name</label> */}
-                        <textarea name="description" id="description" className="form-control" rows="3" placeholder="Tell us more.." required />
+                        <textarea name="description" id="description" className="form-control" rows="3" placeholder="Talk to me.." required />
                     </div>
-                    <button type="submit" className="btn btn-grey btn-block text-capitalize mt-5">Talk to us</button>
+                    <button type="submit" className="btn btn-grey btn-block text-capitalize mt-5">Submit</button>
                 </form>
             </div>
         </section>

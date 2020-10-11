@@ -40,10 +40,10 @@
       margin:0 !important; // bootstrap override
     }
     li {
-      padding:0 0.5em;
+      // padding:0 0.5em;
     }
     a {
-      color: var(--mainDarkerGrey);
+      // color: var(--mainDarkerGrey);
     &:hover,:active {
       color:var(--mainGrey);
     }

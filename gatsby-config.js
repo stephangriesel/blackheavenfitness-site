@@ -17,29 +17,29 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-source-printful`,
-      options: {
-        apiKey: process.env.PRINTFUL_KEY,
-        paginationLimit: 100 // Default value is 20
-      },
-    },
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: process.env.CONTENTFUL_ID,
-        // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: process.env.CONTENTFUL_TOKEN
-        // host: `preview.contentful.com`,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-snipcart',
-      options: {
-        apiKey: process.env.SNIPCART_KEY,
-        autopop: true
-      }
-    },
+    // {
+    //   resolve: `gatsby-source-printful`,
+    //   options: {
+    //     apiKey: process.env.PRINTFUL_KEY,
+    //     paginationLimit: 100 // Default value is 20
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-source-contentful`,
+    //   options: {
+    //     spaceId: process.env.CONTENTFUL_ID,
+    //     // Learn about environment variables: https://gatsby.dev/env-vars
+    //     accessToken: process.env.CONTENTFUL_TOKEN
+    //     // host: `preview.contentful.com`,
+    //   },
+    // },
+    // {
+    //   resolve: 'gatsby-plugin-snipcart',
+    //   options: {
+    //     apiKey: process.env.SNIPCART_KEY,
+    //     autopop: true
+    //   }
+    // },
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {

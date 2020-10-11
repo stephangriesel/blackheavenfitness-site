@@ -54,14 +54,6 @@
   margin: 0 !important;
 }
 
-.toolbar .toolbar__navigation-items li {
-  padding: 0 0.5em;
-}
-
-.toolbar .toolbar__navigation-items a {
-  color: var(--mainDarkerGrey);
-}
-
 .toolbar .toolbar__navigation-items a:hover, .toolbar .toolbar__navigation-items a :active {
   color: var(--mainGrey);
 }

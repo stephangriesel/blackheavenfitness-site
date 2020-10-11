@@ -67,6 +67,20 @@ section {
   mask-image: linear-gradient(to top, transparent 1%, rgb(0, 0, 0) 100%);
 }
 
+.black-bg {
+  background:var(--mainBlack);
+  text-transform: uppercase;
+  color:var(--mainLight);
+  padding:0.2em;
+  margin-right:0.2em;
+  font-weight:900;
+  font-size:1.3em;
+  a {
+    color:var(--mainLight);
+    text-decoration: none;
+  }
+}
+
 .about-background {
   min-height: 80vh;
   display: flex;
