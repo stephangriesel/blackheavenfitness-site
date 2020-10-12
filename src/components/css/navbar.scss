@@ -51,6 +51,7 @@
   }
   .toolbar__logo {
     margin-left:0.5em;
+    overflow: hidden;
     a {
       color:var(--mainDarkerGrey);
       font-size: 2em;
