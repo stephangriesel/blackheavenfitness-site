@@ -60,6 +60,7 @@
 
 .toolbar .toolbar__logo {
   margin-left: 0.5em;
+  overflow: hidden;
 }
 
 .toolbar .toolbar__logo a {
