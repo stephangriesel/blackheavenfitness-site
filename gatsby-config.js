@@ -24,15 +24,15 @@ module.exports = {
     //     paginationLimit: 100 // Default value is 20
     //   },
     // },
-    // {
-    //   resolve: `gatsby-source-contentful`,
-    //   options: {
-    //     spaceId: process.env.CONTENTFUL_ID,
-    //     // Learn about environment variables: https://gatsby.dev/env-vars
-    //     accessToken: process.env.CONTENTFUL_TOKEN
-    //     // host: `preview.contentful.com`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: process.env.CONTENTFUL_ID,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: process.env.CONTENTFUL_TOKEN
+        // host: `preview.contentful.com`,
+      },
+    },
     // {
     //   resolve: 'gatsby-plugin-snipcart',
     //   options: {
