@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import BackgroundSection from '../components/Globals/BackgroundSection';
 import Info from '../components/Home/Info'
 import LatestProducts from '../components/Home/ProductHighlights'
+import Reviews from '../components/Review/Review'
 
 const IndexPage = ({ data }) => (
   < Layout >
@@ -17,6 +18,7 @@ const IndexPage = ({ data }) => (
     />
     <Info />
     {/* <LatestProducts /> */}
+    {/* <Reviews /> */}
   </Layout >
 );
 
