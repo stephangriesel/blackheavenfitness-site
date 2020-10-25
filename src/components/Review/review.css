@@ -1,11 +1,3 @@
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .review {
   background: var(--mainWhite);
   padding: 1.5rem 2rem;
@@ -15,11 +7,20 @@
   -webkit-transition: var(--transition);
   transition: var(--transition);
   text-align: center;
+  -webkit-transform: skew(0deg, -5deg);
+          transform: skew(0deg, -5deg);
+  margin-top: -100px;
+  overflow: hidden;
 }
 
 .review:hover {
   -webkit-box-shadow: var(--dark-shadow);
           box-shadow: var(--dark-shadow);
+}
+
+.content {
+  -webkit-transform: skew(0deg, 5deg);
+          transform: skew(0deg, 5deg);
 }
 
 .img-container {

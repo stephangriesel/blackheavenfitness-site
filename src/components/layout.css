@@ -53,6 +53,10 @@ body p {
   font-size: 1.4em;
 }
 
+.wrapper {
+  overflow: hidden;
+}
+
 .default-background {
   min-height: 90vh;
   display: -webkit-box;

@@ -9,7 +9,7 @@ export default function Info() {
                 <div className="container"></div>
                 <Title title="About ME"></Title>
                 <div className="row">
-                    <div className="col-10 col-sm-8 mx-auto text-center">
+                    <div className="col-10 col-sm-8 mx-auto text-center mb-5 pb-5">
                         <p>
                             Shaleka Black-Heaven- 29 years old. Started on my fitness journey 2 years ago as a personal trainer, I quickly found my love for hiit and group fitness, I'm all about high energy and pushing to the limits of what we can do. I talk a lot, I'm loud, I'm fun and I'm motivated, I'm here for the people that want to give 100% and more. I love basketball, anime and MMA!
                         </p>
