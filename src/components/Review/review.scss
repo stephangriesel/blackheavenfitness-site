@@ -9,12 +9,12 @@
     &:hover {
         box-shadow: var(--dark-shadow);
       }
-    transform:skew(0deg,-5deg);
+    transform:skew(0deg,-3deg);
     margin-top:-100px;
 
       p {
-        margin:1em;
-        font-size:1em;
+        margin:1em 10em;
+        font-size:1.1em;
         font-style: italic;
       }
 
@@ -25,7 +25,7 @@
   }
 
   .content {
-    transform:skew(0deg,5deg);
+    transform:skew(0deg,3deg);
   }
   
   .img-container {
