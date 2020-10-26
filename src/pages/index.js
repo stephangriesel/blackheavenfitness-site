@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => (
     />
     <Info />
     {/* <LatestProducts /> */}
-    <Reviews />
+    {/* <Reviews /> */}
   </Layout >
 );
 
