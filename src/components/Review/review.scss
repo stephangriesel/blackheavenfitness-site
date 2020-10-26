@@ -1,17 +1,27 @@
 .review {
     background: var(--mainWhite);
     padding: 1.5rem 2rem;
-    border-radius: var(--radius);
     box-shadow: var(--light-shadow);
     transition: var(--transition);
     text-align: center;
+    overflow:hidden;
     // padding:100px 0;
     &:hover {
         box-shadow: var(--dark-shadow);
       }
     transform:skew(0deg,-5deg);
     margin-top:-100px;
-    overflow: hidden;
+
+      p {
+        margin:1em;
+        font-size:1em;
+        font-style: italic;
+      }
+
+      h4 {
+        text-transform: uppercase;
+      }
+    
   }
 
   .content {
@@ -65,4 +75,29 @@
 
   .info, .author {
       color:var(--mainBlack);
+  }
+
+  .button-container {
+    overflow:hidden;
+    .prev-btn {
+      border:none;
+      background-color:var(--mainWhite);
+      margin-right:2em;
+      outline:none;
+      overflow:hidden;
+      &:hover {
+        transform: scale(1.2);
+        transition: ease-in-out 0.2s;
+      }
+    }
+    .next-btn {
+      border:none;
+      background-color:var(--mainWhite);
+      margin-left:2em;
+      outline:none;
+      &:hover {
+        transform: scale(1.2);
+        transition: ease-in-out 0.2s;
+      }
+    }
   }

@@ -33,12 +33,10 @@ const Review = () => {
         <div className="content">
             <div className="img-container">
                 <img src={image} alt="review image" className="person-img" />
-                <span className="quote-icon">
+                {/* <span className="quote-icon">
                     <FaQuoteRight />
-                </span>
+                </span> */}
             </div>
-            <h4 className="author">{name}</h4>
-            <p className="info">{text}</p>
             <div className="button-container">
                 <button className="prev-btn" onClick={prevPerson}>
                     <FaChevronLeft />
@@ -47,6 +45,8 @@ const Review = () => {
                     <FaChevronRight />
                 </button>
             </div>
+            {/* <h4 className="author">{name}</h4> */}
+            <p className="info">{text}</p>
         </div>
     </article>
 };

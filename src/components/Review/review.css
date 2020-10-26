@@ -1,21 +1,30 @@
 .review {
   background: var(--mainWhite);
   padding: 1.5rem 2rem;
-  border-radius: var(--radius);
   -webkit-box-shadow: var(--light-shadow);
           box-shadow: var(--light-shadow);
   -webkit-transition: var(--transition);
   transition: var(--transition);
   text-align: center;
+  overflow: hidden;
   -webkit-transform: skew(0deg, -5deg);
           transform: skew(0deg, -5deg);
   margin-top: -100px;
-  overflow: hidden;
 }
 
 .review:hover {
   -webkit-box-shadow: var(--dark-shadow);
           box-shadow: var(--dark-shadow);
+}
+
+.review p {
+  margin: 1em;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.review h4 {
+  text-transform: uppercase;
 }
 
 .content {
@@ -74,5 +83,38 @@
 
 .info, .author {
   color: var(--mainBlack);
+}
+
+.button-container {
+  overflow: hidden;
+}
+
+.button-container .prev-btn {
+  border: none;
+  background-color: var(--mainWhite);
+  margin-right: 2em;
+  outline: none;
+  overflow: hidden;
+}
+
+.button-container .prev-btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+
+.button-container .next-btn {
+  border: none;
+  background-color: var(--mainWhite);
+  margin-left: 2em;
+  outline: none;
+}
+
+.button-container .next-btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
 }
 /*# sourceMappingURL=review.css.map */
