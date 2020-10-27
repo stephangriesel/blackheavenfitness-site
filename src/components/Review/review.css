@@ -18,7 +18,7 @@
 }
 
 .review p {
-  margin: 1em 10em;
+  padding: 1em 30em;
   font-size: 1.1em;
   font-style: italic;
 }
@@ -120,9 +120,7 @@
 
 @media only screen and (max-width: 900px) {
   .review p {
-    margin: 1em 3em;
-    font-size: 1.1em;
-    font-style: italic;
+    padding: 1em 2em;
   }
 }
 /*# sourceMappingURL=review.css.map */
