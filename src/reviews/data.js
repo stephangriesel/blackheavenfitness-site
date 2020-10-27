@@ -3,7 +3,7 @@ const reviews = [
         id: 1,
         name: 'piet pompies',
         image:
-            'https://res.cloudinary.com/dvme554nj/image/upload/v1603693080/blackheavenfitness/user-36_pseuud.png',
+            'https://res.cloudinary.com/dvme554nj/image/upload/v1603779724/blackheavenfitness/Screenshot_from_2020-10-27_07-20-35_zmwzpo.png',
         text:
             "What an awesome start in the day. Great energy, great people and felt 100% safe with the new covid guidelines having been respected at all times.",
     },
@@ -11,7 +11,7 @@ const reviews = [
         id: 2,
         name: 'merrel pompies',
         image:
-            'https://res.cloudinary.com/dvme554nj/image/upload/v1603693080/blackheavenfitness/user-38_nx9dnn.png',
+            'https://res.cloudinary.com/dvme554nj/image/upload/v1603779724/blackheavenfitness/Screenshot_from_2020-10-27_07-20-43_ubsyuq.png',
         text:
             "Great workout and fantastic energy. Loved it.",
     },
@@ -19,7 +19,7 @@ const reviews = [
         id: 3,
         name: 'merrel pompies',
         image:
-            'https://res.cloudinary.com/dvme554nj/image/upload/v1603693080/blackheavenfitness/user-39_ehu2ik.png',
+            'https://res.cloudinary.com/dvme554nj/image/upload/v1603779724/blackheavenfitness/Screenshot_from_2020-10-27_07-19-43_qqsipq.png',
         text:
             "Great motivator",
     },
@@ -27,7 +27,7 @@ const reviews = [
         id: 4,
         name: 'merrel pompies',
         image:
-            'https://res.cloudinary.com/dvme554nj/image/upload/v1603693080/blackheavenfitness/user-35_td7wdc.png',
+            'https://res.cloudinary.com/dvme554nj/image/upload/v1603779724/blackheavenfitness/Screenshot_from_2020-10-27_07-20-18_sgj3da.png',
         text:
             "It was dark and raining non stop but I still had an amazing workout!",
     },
@@ -35,9 +35,17 @@ const reviews = [
         id: 5,
         name: 'merrel pompies',
         image:
-            'https://res.cloudinary.com/dvme554nj/image/upload/v1603693080/blackheavenfitness/user-34_brnltu.png',
+            'https://res.cloudinary.com/dvme554nj/image/upload/v1603779724/blackheavenfitness/Screenshot_from_2020-10-27_07-20-09_qumkis.png',
         text:
             "It was rainy but Shaleka made it worth it. Inspiring and always motivating. Thanks coach!",
+    },
+    {
+        id: 6,
+        name: 'merrel pompies',
+        image:
+            'https://res.cloudinary.com/dvme554nj/image/upload/v1603779724/blackheavenfitness/Screenshot_from_2020-10-27_07-19-55_bynmzd.png',
+        text:
+            "Pushes you to the next level while keeping it FUN FUN FUN",
     }
 ];
 
