@@ -10,15 +10,15 @@ import Articles from '../components/Home/Articles'
 
 
 const ArticlesPage = ({ data }) => (
-    <Layout>
-        <SEO title="Articles" />
-        <BackgroundSection
+  <Layout>
+    <SEO title="Articles" />
+    {/* <BackgroundSection
             img={data.img.childImageSharp.fluid}
             title="Articles"
             styleClass="about-background"
-        />
-        <Articles />
-    </Layout >
+        /> */}
+    <Articles />
+  </Layout >
 );
 
 export const query = graphql`

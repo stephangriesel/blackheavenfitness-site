@@ -15,7 +15,7 @@ const toolbar = props => (
             <div className="toolbar__navigation-items">
                 <ul>
                     {/* <li><a href="/shop">Shop</a> </li> */}
-                    {/* <li className="black-bg"><a href="/articles">Articles</a> </li> */}
+                    <li className="black-bg"><a href="/articles">Articles</a> </li>
                     <li className="black-bg"><a href="/contact">Contact</a> </li>
                     <li className="black-bg"><a href="https://try.beat81.com/shaleka/">Free Workout</a> </li>
                     <li className="black-bg"><span><a href="https://www.instagram.com/shalekablackheaven_fitness/"><FaInstagram /></a></span></li>
