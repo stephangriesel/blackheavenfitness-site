@@ -15,7 +15,7 @@ const sideDrawer = props => {
                 <li><a href="/articles">Articles</a> </li>
                 <li><a href="https://try.beat81.com/shaleka/">Free Workout</a> </li>
                 <li><a href="/contact">Contact</a> </li>
-                <li className="social"><span><a href="https://www.instagram.com/shalekablackheaven_fitness/"><FaInstagram /></a></span></li>
+                <li className="social"><span><a href="https://www.instagram.com/blackheaven_fitness"><FaInstagram /></a></span></li>
                 {/* <li>
                     <button className="snipcart-checkout" aria-label="shopping cart button"><span className="bag"><FaShoppingCart /></span></button>
                 </li> */}
